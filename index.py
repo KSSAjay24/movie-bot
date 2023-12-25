@@ -8,9 +8,9 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 
-TOKEN = os.getenv("TOKEN")
-URL = os.getenv("URL")
-bot = Bot(TOKEN)
+TOKEN = os.getenv("1fa3b4cd965dc758f0086b99d18aa0df31ac2571")
+URL = os.getenv("gyanilinks.com")
+bot = Bot(6777080067:AAF4K0RCQV-u0zPZhWHX36wGMxGxYXXwhxg)
 
 
 def welcome(update, context) -> None:
